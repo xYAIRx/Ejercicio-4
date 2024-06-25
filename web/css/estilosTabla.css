@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid blueviolet;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+}
+td{
+    padding: 5px;
+    border: 1px solid blueviolet;
+}
+th{
+    background-color:navajowhite;
+    color: plum;
+}
+tr :nth-child(odd){
+    background-color: darkgrey;
+}
+@media(min-widht:900px) and (max-windht:2000px){
+    body{
+        background-color: aquamarine;
+    }
+}
