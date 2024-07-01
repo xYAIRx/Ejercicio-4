@@ -13,10 +13,10 @@ h1{
 form{
     margin-top: 30px;
     width: 350px;
-    box-shadow: 0 0 20px rgb(0, 204, 255);
+    box-shadow: 0 0 20px rgb(0, 255, 8);
     padding: 30px;
     border-radius: 9px;
-    background-color: aliceblue;
+    background-color: rgb(0, 136, 255);
 }
 .contenedor{
     display: flex;
@@ -28,32 +28,32 @@ input{
     height: 20px;
     margin-bottom: 12px;
     margin-top: 7px;
-    background:linear-gradient(90deg,rgb(255, 255, 255),rgba(0, 229, 255, 0.304),rgb(0, 132, 255));
-    border: 2px solid darkcyan ;
+    background:linear-gradient(90deg,rgb(255, 0, 0),rgba(255, 0, 230, 0.304),rgb(255, 0, 0));
+    border: 2px solid rgb(8, 0, 255) ;
     border-radius: 8px;
     padding-left: 10px;
 }
 button{
     margin-top: 10px;
     height: 30px;
-    background:linear-gradient(90deg,rgb(255, 255, 255),rgba(0, 229, 255, 0.304),rgb(0, 132, 255));
+    background:linear-gradient(90deg,rgb(9, 255, 0),rgba(0, 74, 82, 0.304),rgb(255, 0, 72));
     border-radius: 8px;
-    border: 2px solid darkcyan ;
+    border: 2px solid rgb(246, 255, 0) ;
     width: 95%;
     cursor: pointer;
 }
 button:hover{
-    background:linear-gradient(90deg,rgb(0, 132, 255),rgba(0, 229, 255, 0.304),rgb(255, 255, 255));
+    background:linear-gradient(90deg,rgb(41, 106, 167),rgba(32, 245, 4, 0.304),rgb(255, 0, 0));
 }
 .tacheNombre, .tacheCelular, .tacheCorreo{
 color: rgb(255, 0, 0);
 }
 .input-tache{
-    background:linear-gradient(90deg,rgb(255, 255, 255),rgba(250, 104, 104, 0.705),rgb(255, 0, 0));
+    background:linear-gradient(90deg,rgb(0, 255, 26),rgba(0, 255, 221, 0.705),rgb(157, 255, 0));
     border: 2px solid rgb(255,0,0);
 }
 .input-buena{
-    background:linear-gradient(90deg,rgb(255, 255, 255),rgb(160, 253, 139),rgb(0, 255, 17));
+    background:linear-gradient(90deg,rgb(255, 0, 0),rgb(255, 119, 0),rgb(157, 255, 0));
     border: 2px solid rgb(0, 255, 34);
 }
 .buenaNombre, .buenaCelular, .buenaCorreo{

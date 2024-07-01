@@ -6,7 +6,7 @@
 table{
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid blueviolet;
+    border: 3px solid rgb(0, 0, 255);
     width: 60%;
     margin-left: 20%;
     margin-top: 50px;
@@ -16,17 +16,17 @@ h1{
 }
 td{
     padding: 5px;
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(0, 21, 248);
 }
 th{
-    background-color:navajowhite;
-    color: plum;
+    background-color:rgb(34, 0, 255);
+    color: rgb(198, 17, 198);
 }
 tr :nth-child(odd){
-    background-color: darkgrey;
+    background-color: rgb(206, 31, 148);
 }
 @media(min-widht:900px) and (max-windht:2000px){
     body{
-        background-color: aquamarine;
+        background-color: rgb(0, 255, 170);
     }
 }

@@ -6,11 +6,11 @@ class ConectarBD{
     async ConectarMySql(){
       try {
         this.conexion=await this.mysql.createConnection({
-            host: process.env.HOSTMYSQL,
-            user: process.env.USERMYSQL,
-            password: process.env.PASSWORDMYSQL,
-            database: process.env.DATABASEMYSQL,
-            port: process.env.PORTMYSQL
+            host:'localhost',
+            user:'root',
+            password:'',
+            database:'empresa',
+            port:3306
         });
         console.log("Conexión creada en MySql");
         
